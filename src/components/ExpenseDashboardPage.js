@@ -1,3 +1,4 @@
+import React from 'react';
 import ExpensesList from "../components/ExpensesList";
 import ExpenseListFilters from "../components/ExpenseListFilters";
 import { connect } from "react-redux";

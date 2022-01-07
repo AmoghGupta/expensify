@@ -1,3 +1,4 @@
+import React from 'react';
 import {ExpenseForm} from "../components/ExpenseForm";
 import { connect } from "react-redux";
 import {editExpense, startRemoveExpense} from "../actions/expenses";
