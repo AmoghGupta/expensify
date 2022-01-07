@@ -3,7 +3,6 @@ import { connect } from "react-redux";
 import {setTextFilter} from "../actions/filters";
 import {sortByAmount, sortByDate ,setStartDate, setEndDate} from "../actions/filters";
 import {DateRangePicker}  from "react-dates";
-import 'react-dates/lib/css/_datepicker.css';
 
 
 class ExpenseListFilters extends React.Component{
