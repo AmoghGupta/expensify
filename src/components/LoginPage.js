@@ -9,9 +9,12 @@ const LoginPage =(props)=>{
     }
     
     return (
-        <div>
-            <h1>Login Page</h1>
-            <button onClick={onLogin}>Login</button>
+        <div className='base-layout'>
+            <div className='box-layout'>
+                <h1>Expensify App</h1>
+                <p>Its time to get your expenses under control.</p>
+                <button onClick={onLogin}>Login</button>
+            </div>
         </div>
     );
 }

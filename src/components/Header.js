@@ -10,7 +10,7 @@ const Header = (props)=>{
     }
 
     return (
-        <header>
+        <header className="expensify-header">
             <h1>Expensify App</h1>
             <NavLink exact={true}  to={'/dashboard'} activeClassName="is-active">Go Home</NavLink>
             <NavLink exact={true} to={'/create'} activeClassName="is-active">Add Expense</NavLink>
